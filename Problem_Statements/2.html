@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://assessments.reliscore.com/activity/ap/90286/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="Showcase your skills. Prove your programming powers.">
+    <meta name="keywords" content="computers, programming, IT, skills, problems, challenges, jobs, hiring">
+    <title>
+  CSI Discover Thinking Programming Contest
+</title>
+    
+    <link href="./1_files/rs.2851f0c93354.css" rel="stylesheet" type="text/css" media="screen, projection">
+    <link href="./1_files/print.css" media="print" rel="stylesheet" type="text/css">
+    <!--[if lt IE 8]>
+        <link href="http://static.www2.rsphinx.com/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <link rel="icon" href="http://static.www2.rsphinx.com/images/favicon.ico">
+    <link rel="apple-touch-icon" href="http://static.www2.rsphinx.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="http://static.www2.rsphinx.com/images/apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" href="./1_files/font-awesome.min.css">
+    
+      
+    
+
+  </head>
+  <body class="bp co_theme" style="zoom: 1;">
+    <div id="container">
+      <!-- <div id="top_row">
+  
+</div>
+ -->
+      
+        
+
+
+<div id="logo_row">
+  <div class="logo_wrapper">
+    
+        
+          <div class="logo theme_logo">
+            
+              <a href="http://csi-india.org/">
+                <img src="./1_files/csi-logo-2017.jpg">
+              </a>
+            
+          </div>
+        
+    
+  </div> <!-- logo_wrapper -->
+
+  
+
+  <div class="nav_wrapper">
+    <ul class="first">
+      <li><a href="http://assessments.reliscore.com/about/">About</a></li>
+      <li><a href="http://assessments.reliscore.com/contact/">Contact Us</a></li>
+    </ul>
+    <ul class="second">
+      
+        <li><a href="http://assessments.reliscore.com/user/gokulnc/">Gokul NC</a>:
+      
+      </li><li><a href="http://assessments.reliscore.com/">Home</a></li>
+      
+      <li><a href="http://assessments.reliscore.com/user/settings/">Settings</a></li>
+      
+        <li><a href="http://assessments.reliscore.com/accounts/logout/?next_page=/activity/ap/90286/">Logout</a></li>
+      
+    </ul>
+  </div> <!-- nav_wrapper -->
+</div> <!-- logo_row -->
+
+      
+
+      
+          <div id="middle_row">
+            <div id="pagebody">
+              
+                
+
+
+
+   <!-- if  errors/message_set/notice_unseen_count/random_tip -->
+
+
+              
+              
+  <div class="rs_page">
+    <h1>CSI Discover Thinking Programming Contest</h1>
+    <div class="activity box_large">
+      
+        
+          
+            
+  <div class="company_logo">
+    
+      <img src="./1_files/csi-contest-logo-2017.png">
+    
+  </div>
+
+
+
+          
+        
+      
+      
+        
+
+
+
+
+
+
+<div class="status">
+  
+    
+  
+
+  
+    
+      
+    
+
+  <p>You are in Section 2: Simple Aggregate, question 1 of 1.  There are a total of 6 sections.</p>
+  
+    
+    
+  
+
+  
+
+
+
+    <p></p>
+
+
+  
+</div>
+
+      
+      
+      
+        
+        
+          
+
+
+
+  <div class="exercise">
+    
+      
+        <h3>Sum of Salaries</h3>
+        
+
+
+
+
+<div id="sol_status" class="status">
+  <p>
+  
+  
+    
+    
+    
+    
+    
+    
+  
+  </p>
+</div>
+
+        
+
+  <p>Consider a file <code>input.txt</code> which contains the employee hierarchy of various companies, in the following format:</p>
+<div class="codehilite"><pre>Vineel Phatak, 520, Amkart, NOBODY
+Ajay Joshi, 250, Amkart, Vineel Phatak
+Abhishek Chauhan, 120, Amkart, Ajay Joshi
+Jayesh Godse, 500, Airflix, NOBODY
+Vijaya Mundada, 60, Amkart, Abhishek Chauhan
+Shital Tuteja, 45, Airflix, Jayesh Godse
+Rajan Gawli, 700, Amkart, Vineel Phatak
+Sheila Rodrigues, 35, Amkart, Vineel Phatak
+Zeba Khan, 300, Airflix, Jayesh Godse
+Chaitali Sood, 100, Airflix, Zeba Khan
+</pre></div>
+
+
+<p>Each line contains an employee name, a salary (in Rs. thousands per month), the name of the company, and the name of the manager of that employee - all separated by commas. You may assume that employee name, company name, and manager name do not contain any commas, and that salary is an integer. The special manager name NOBODY indicates that this employee does not have a manager (and is hence the CEO of the company). You can assume that there is only one CEO in each company.</p>
+<p>You have to write a program which reads <code>input.txt</code> (from the current directory), and finds the sum of all the salaries in the input. You should write that number to the file <code>output.txt</code> (in the current directory).</p>
+<p>Thus, if <code>input.txt</code> contained the example input given above, your program should write the following to <code>output.txt</code>:</p>
+<div class="codehilite"><pre>2630
+</pre></div>
+
+
+<p>Because that is the sum of all the 10 salaries in the input.</p>
+<p>Please note the following:</p>
+<ul>
+<li>Your program should read the input from a text file called <code>input.txt</code> in the current directory. Not <code>C:\input.txt</code> or some other name like that. If you can't figure out how to read input from <code>input.txt</code> in the current directory, you will not be able to solve this problem.</li>
+<li>Your program <em>must</em> write output to a file called <code>output.txt</code> in the current directory. (Current directory is the directory in which your program is executed at runtime.) The <code>output.txt</code> must contain a single integer and nothing else.</li>
+</ul>
+<p>Other things to note:</p>
+<ul>
+<li>Please write your program in one of the supported languages (see the dropdown list at the bottom of this page). </li>
+<li>Do not print anything extra to <code>output.txt</code>. Do not print prompts like "Please enter your input:"</li>
+<li>If you write your program in C, please write in <em>standard</em> C. Do not use any Microsoft or Turbo-C specific functions (e.g. <code>clrsrc</code>, or <code>getch</code>), and do not include non-standard files (like <code>conio.h</code>). </li>
+<li>If you write your program in Java, the main class in your program should be called <code>public class Main</code>. This class should contain the <code>public static void main</code> method. Please do not include a <code>package declaration</code> in your program.</li>
+<li>If you write in C++, make sure to write standard C++. You may use the STL but please remember that you might need <code>using namespace std;</code> or equivalent in your code to make it work properly.</li>
+</ul>
+<p>Note: Read the instructions carefully. Look at the example input and example output properly - that will ensure that you've understood the problem correctly. Most disqualified submissions are because of failure to follow the instructions exactly.</p>
+<p>Note: if you're unable to solve this problem, you cannot proceed to the next section. Please log out, and you'll be evaluated on the basis of whatever you've submitted so far. “My program works on my computer, but is being rejected by the system” is not a valid complaint. That just means that you did not read the instructions carefully. Try again.</p>
+<p>In case of any problems please contact <a href="mailto:info@rsphinx.com">info@rsphinx.com</a></p>
+
+
+
+     <!-- num_files > 0 -->
+
+
+
+
+
+        
+          
+            <form action="http://assessments.reliscore.com/activity/ap/90286/" class="uniForm" method="POST">
+          
+            <div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="1nxUjUyomu73EIXqc1Xy8RpMQGJef9lO"></div>
+            
+    
+
+
+
+
+
+
+    
+
+
+    <input type="hidden" name="user" value="64567" id="id_user">
+
+
+
+    
+
+
+    <input type="hidden" name="exercise" value="15059" id="id_exercise">
+
+
+
+    
+
+
+    <div id="div_id_long_answer" class="ctrlHolder">
+        
+            
+        
+
+        
+            
+
+            <label for="id_long_answer">
+                Answer
+            </label>
+        
+
+        
+            <textarea id="id_long_answer" rows="10" cols="60" name="long_answer" class="span-17 textarea" style="color: rgb(175, 175, 175);"></textarea>
+        
+
+        
+    </div>
+
+
+
+    
+
+
+    <div id="div_id_platform" class="ctrlHolder">
+        
+            
+        
+
+        
+            
+
+            <label for="id_platform">
+                Language/Platform
+            </label>
+        
+
+        
+            <select id="id_platform" class="select" name="platform">
+<option value="" selected="selected">---------</option>
+<option value="1">c</option>
+<option value="2">C++</option>
+<option value="4">python</option>
+<option value="5">ruby</option>
+<option value="6">php</option>
+<option value="7">java1.6</option>
+<option value="8">java1.7</option>
+<option value="9">java1.8</option>
+<option value="10">perl</option>
+<option value="11">Shell Command</option>
+<option value="12">c#</option>
+<option value="13">JavaScript/NodeJS</option>
+</select>
+        
+
+        
+    </div>
+
+
+
+
+
+
+            
+            <div class="buttonHolder">
+              <input type="submit" name="Submit" value="Submit" class="submit submitButton">
+              
+              
+              
+              
+            </div>
+          </form>
+        
+      
+    
+  </div>
+
+
+          
+        
+      
+    </div>
+    
+    
+
+
+  </div>
+
+            </div>
+
+            
+              <div id="sidebar_wrapper">
+                
+                  <div class="sidebar">
+  Powered by:
+  <div id="powered_by_reliscore">
+    <div class="box_large">
+      <a href="http://reliscore.com/">
+        <img src="./1_files/logo.png">
+      </a>
+    </div>
+  </div>
+</div>
+
+                
+              </div>
+            
+          </div>
+      
+
+      
+        
+
+
+<div id="footer">
+  
+
+  <div class="copyright_wrapper">
+    <div class="copyright">Copyright © 2011 - <a href="http://reliscore.com/" title="reliscore.com">PuneTech Software Pvt. Ltd</a>. <br> Credits: Icons taken from <a href="http://www.famfamfam.com/lab/icons/silk/" title="Silk Icons - Free Icon Set">Silk icons</a> and <a href="http://www.iconspedia.com/" title="Iconspedia - great place to search for good quality, free icons">iconspedia.com</a>.</div>
+  </div>
+</div>
+
+      
+    </div>
+    
+      
+<!-- begin google analytics -->
+<script type="text/javascript" async="" src="./1_files/ga.js.download"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24292935-2']);
+  _gaq.push(['_setDomainName', 'www2.rsphinx.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end google analytics -->
+
+
+      <script src="./1_files/jquery.min.js.download"></script>
+      <script type="text/javascript" src="./1_files/rs.1282c1730117.js.download" charset="utf-8"></script>
+      
+    
+  
+
+</body></html>

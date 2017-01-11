@@ -1,0 +1,522 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://assessments.reliscore.com/activity/ap/90286/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="Showcase your skills. Prove your programming powers.">
+    <meta name="keywords" content="computers, programming, IT, skills, problems, challenges, jobs, hiring">
+    <title>
+  CSI Discover Thinking Programming Contest
+</title>
+    
+    <link href="./4_files/rs.2851f0c93354.css" rel="stylesheet" type="text/css" media="screen, projection">
+    <link href="./4_files/print.css" media="print" rel="stylesheet" type="text/css">
+    <!--[if lt IE 8]>
+        <link href="http://static.www2.rsphinx.com/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <link rel="icon" href="http://static.www2.rsphinx.com/images/favicon.ico">
+    <link rel="apple-touch-icon" href="http://static.www2.rsphinx.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="http://static.www2.rsphinx.com/images/apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" href="./4_files/font-awesome.min.css">
+    
+      
+    
+
+  </head>
+  <body class="bp co_theme" style="zoom: 1;">
+    <div id="container">
+      <!-- <div id="top_row">
+  
+</div>
+ -->
+      
+        
+
+
+<div id="logo_row">
+  <div class="logo_wrapper">
+    
+        
+          <div class="logo theme_logo">
+            
+              <a href="http://csi-india.org/">
+                <img src="./4_files/csi-logo-2017.jpg">
+              </a>
+            
+          </div>
+        
+    
+  </div> <!-- logo_wrapper -->
+
+  
+
+  <div class="nav_wrapper">
+    <ul class="first">
+      <li><a href="http://assessments.reliscore.com/about/">About</a></li>
+      <li><a href="http://assessments.reliscore.com/contact/">Contact Us</a></li>
+    </ul>
+    <ul class="second">
+      
+        <li><a href="http://assessments.reliscore.com/user/gokulnc/">Gokul NC</a>:
+      
+      </li><li><a href="http://assessments.reliscore.com/">Home</a></li>
+      
+      <li><a href="http://assessments.reliscore.com/user/settings/">Settings</a></li>
+      
+        <li><a href="http://assessments.reliscore.com/accounts/logout/?next_page=/activity/ap/90286/">Logout</a></li>
+      
+    </ul>
+  </div> <!-- nav_wrapper -->
+</div> <!-- logo_row -->
+
+      
+
+      
+          <div id="middle_row">
+            <div id="pagebody">
+              
+                
+
+
+
+   <!-- if  errors/message_set/notice_unseen_count/random_tip -->
+
+
+              
+              
+  <div class="rs_page">
+    <h1>CSI Discover Thinking Programming Contest</h1>
+    <div class="activity box_large">
+      
+        
+          
+            
+  <div class="company_logo">
+    
+      <img src="./4_files/csi-contest-logo-2017.png">
+    
+  </div>
+
+
+
+          
+        
+      
+      
+        
+
+
+
+
+
+
+<div class="status">
+  
+    
+  
+
+  
+    
+      
+    
+
+  <p>You are in Section 5: Lowest Employee, question 1 of 1.  There are a total of 6 sections.</p>
+  
+    
+    
+  
+
+  
+
+
+
+    <p></p>
+
+
+  
+</div>
+
+      
+      
+      
+        
+        
+          
+
+
+
+  <div class="exercise">
+    
+      
+        <h3>Companywise Lowest Employee</h3>
+        
+
+
+
+
+<div id="sol_status" class="status inevaluation">
+  <p>
+  
+  
+    
+      Your solution is being evaluated.<br>
+      <a class="button" href="http://assessments.reliscore.com/activity/ap/90286/">Click
+      here after 1 minute</a> to refresh this page.
+    
+  
+  </p>
+</div>
+
+        
+
+  <p>In the previous section, you figured out which employees belong to which companies by following the employee-manager relationships. In this problem, for similar input, for each company, you have to figure out the name of the employee who is farthest away from the CEO of that company - in terms of the company hierarchy.</p>
+<p>For example, if <code>input.txt</code> contained:</p>
+<div class="codehilite"><pre>Vineel Phatak, 520, NOBODY
+Ajay Joshi, 250, Vineel Phatak
+Abhishek Chauhan, 120, Ajay Joshi
+Jayesh Godse, 500, NOBODY
+Vijaya Mundada, 60, Abhishek Chauhan
+Shital Tuteja, 45, Jayesh Godse
+Rajan Gawli, 700, Vineel Phatak
+Zeba Khan, 300, Jayesh Godse
+Chaitali Sood, 100, Zeba Khan
+Sheila Rodrigues, 35, Vineel Phatak
+</pre></div>
+
+
+<p>Then, for Vineel Phatak's company, Vijaya Mundada is the employee who is farthest away from the CEO because Vijaya's manager is Abhishek Chauhan, Abhishek's Manager is Ajay Joshi, and Ajay's manager is Vineel - thus Vijaya is 3 levels away from Vineel. Similarly, Chaitali Sood is the farthest employee in Jayesh Godse's company because she is 2 levels away.</p>
+<p>Thus, when your program is run, <code>output.txt</code> should contain:</p>
+<div class="codehilite"><pre>Vineel Phatak: Vijaya Mundada
+Jayesh Godse: Chaitali Sood
+</pre></div>
+
+
+<p>Note: don't worry if the order of the lines in your output don't exactly match the order here, but the name and the number in each line must match perfectly. Also, make sure that each line consists of just one name followed by a colon, then one blank space and then another name.</p>
+
+
+
+     <!-- num_files > 0 -->
+
+
+
+
+
+        
+          
+            <form action="http://assessments.reliscore.com/activity/ap/90286/" class="uniForm" method="POST">
+          
+            <div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="1nxUjUyomu73EIXqc1Xy8RpMQGJef9lO"></div>
+            
+    
+
+
+
+
+
+
+    
+
+
+    <input type="hidden" name="user" value="64567" id="id_user">
+
+
+
+    
+
+
+    <input type="hidden" name="exercise" value="15065" id="id_exercise">
+
+
+
+    
+
+
+    <div id="div_id_long_answer" class="ctrlHolder">
+        
+            
+        
+
+        
+            
+
+            <label for="id_long_answer">
+                Answer
+            </label>
+        
+
+        
+            <textarea id="id_long_answer" rows="10" cols="60" name="long_answer" class="span-17 textarea">import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+
+
+public class Main {
+	
+	public static class Tree {
+		TreeNode root; 
+		
+		public Tree(String CEO) {
+			root = new TreeNode(CEO);
+		}
+		
+		public TreeNode findChild(String manager) {
+			
+			TreeNode result = root.find(manager);
+			return result;
+		}
+		
+		/*public void insert(String name, String manager) {
+			root.insert(name, manager);
+		}*/
+		
+		public TreeNode findLeaf() {
+			return root.deepestLeaf();
+		}
+	}
+	
+	public static class TreeNode {
+		public String name;
+		ArrayList&lt;TreeNode&gt; children;
+		public int level;
+		
+		public TreeNode(String name) {
+			this.name = name;
+			children = new ArrayList&lt;TreeNode&gt;();
+			level=0;
+		}
+		
+		public TreeNode find(String query) {
+			
+			TreeNode result = null;
+			
+			if(name.equals(query)) return this;
+			
+			for(TreeNode node: children) {
+				result = node.find(query);
+				if(result!=null &amp;&amp; result.name.equals(query)) return result;
+			}
+			
+			return result;
+		}
+		
+		public void insert(TreeNode node) {
+			node.level = level+1;
+			children.add(node);
+		}
+		
+		public TreeNode deepestLeaf() {
+			if(children.isEmpty()) return this;
+			TreeNode deepestLeaf = null, temp;
+			int deepestLevel = -1;
+			
+			
+			for(TreeNode node: children) {
+				temp = node.deepestLeaf();
+				if(temp.level&gt;deepestLevel) {
+					deepestLevel = temp.level;
+					deepestLeaf = temp;
+				}
+			}
+			
+			return deepestLeaf;
+		}
+	}
+	
+	public static TreeNode findManager(String manager, HashMap&lt;String, Tree&gt; CEOs) {
+		TreeNode result = null;
+		for(String CEO: CEOs.keySet()) {
+			Tree curr = CEOs.get(CEO);
+			result = curr.findChild(manager);
+			if(result!=null &amp;&amp; result.name.equals(manager)) return result;
+		}
+		
+		return result;
+	}
+	
+	public static void main(String args[]) throws Exception {
+		FileReader in = new FileReader("input.txt");
+		Scanner sc = new Scanner(in);
+		FileWriter out = new FileWriter("output.txt");
+		
+		HashMap&lt;String, Tree&gt; CEOs = new HashMap&lt;String, Tree&gt;();
+		HashMap&lt;String, TreeNode&gt; set = new HashMap&lt;String, TreeNode&gt;();
+		
+		String temp;
+		String[] details = new String[3];
+		
+		while(sc.hasNext()) {
+			temp = sc.nextLine();
+			details = temp.split(",");
+			
+			details[0] = details[0].trim();
+			details[2] = details[2].trim();
+			
+			if(details[2].equals("NOBODY")) {
+				Tree tree = new Tree(details[0]);
+				CEOs.put(details[0], tree);
+			} else {
+				TreeNode targetParent = findManager(details[2], CEOs);
+				TreeNode child = new TreeNode(details[0]);
+				if(targetParent!=null) targetParent.insert(child);
+				else CEOs.get(details[2]).root.insert(child);
+			}
+			
+			System.out.println(details[0]);
+		}
+		
+		
+		for(String CEO: CEOs.keySet()) {
+			Tree ceo = CEOs.get(CEO);
+			TreeNode emp = ceo.findLeaf();
+			
+			out.write(CEO+": "+emp.name+"\n");
+		}
+		
+		sc.close();
+		in.close();
+		out.close();
+		
+		//System.out.println("Done!!");
+	}
+}
+</textarea>
+        
+
+        
+    </div>
+
+
+
+    
+
+
+    <div id="div_id_platform" class="ctrlHolder">
+        
+            
+        
+
+        
+            
+
+            <label for="id_platform">
+                Language/Platform
+            </label>
+        
+
+        
+            <select id="id_platform" class="select" name="platform">
+<option value="">---------</option>
+<option value="1">c</option>
+<option value="2">C++</option>
+<option value="4">python</option>
+<option value="5">ruby</option>
+<option value="6">php</option>
+<option value="7">java1.6</option>
+<option value="8">java1.7</option>
+<option value="9" selected="selected">java1.8</option>
+<option value="10">perl</option>
+<option value="11">Shell Command</option>
+<option value="12">c#</option>
+<option value="13">JavaScript/NodeJS</option>
+</select>
+        
+
+        
+    </div>
+
+
+
+
+
+
+            
+            <div class="buttonHolder">
+              <input type="submit" name="Submit" value="Submit" class="submit submitButton">
+              
+              
+              
+              
+            </div>
+          </form>
+        
+      
+    
+  </div>
+
+
+          
+        
+      
+    </div>
+    
+    
+
+
+  </div>
+
+            </div>
+
+            
+              <div id="sidebar_wrapper">
+                
+                  <div class="sidebar">
+  Powered by:
+  <div id="powered_by_reliscore">
+    <div class="box_large">
+      <a href="http://reliscore.com/">
+        <img src="./4_files/logo.png">
+      </a>
+    </div>
+  </div>
+</div>
+
+                
+              </div>
+            
+          </div>
+      
+
+      
+        
+
+
+<div id="footer">
+  
+
+  <div class="copyright_wrapper">
+    <div class="copyright">Copyright © 2011 - <a href="http://reliscore.com/" title="reliscore.com">PuneTech Software Pvt. Ltd</a>. <br> Credits: Icons taken from <a href="http://www.famfamfam.com/lab/icons/silk/" title="Silk Icons - Free Icon Set">Silk icons</a> and <a href="http://www.iconspedia.com/" title="Iconspedia - great place to search for good quality, free icons">iconspedia.com</a>.</div>
+  </div>
+</div>
+
+      
+    </div>
+    
+      
+<!-- begin google analytics -->
+<script type="text/javascript" async="" src="./4_files/ga.js.download"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24292935-2']);
+  _gaq.push(['_setDomainName', 'www2.rsphinx.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end google analytics -->
+
+
+      <script src="./4_files/jquery.min.js.download"></script>
+      <script type="text/javascript" src="./4_files/rs.1282c1730117.js.download" charset="utf-8"></script>
+      
+    
+  
+
+</body></html>
