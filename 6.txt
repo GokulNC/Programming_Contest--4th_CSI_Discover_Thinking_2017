@@ -1,3 +1,6 @@
+(Note: See Problem Statement 6 first; they just asked to explain in few words, instead of program)
+
+
 This is not a binary tree, so we can't just use inorder traversal results to compare.
 
 Instead, we're maintaining the list of all children of a node..
