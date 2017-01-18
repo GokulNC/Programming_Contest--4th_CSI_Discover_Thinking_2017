@@ -11,3 +11,9 @@ PS: Solutions are quite hacky and messy to complete it fast..<br>
 This is not a complete measure of my programming skills :wink:
 
 Feel free to correct or optimize by forking and send a PR :)
+
+
+## Contest Result:
+
+It seems I secured **Rank 17** all over India.<br>
+([Source](Result.pdf) | [Original Link](http://csi-2016.org/wp-content/uploads/2017/01/CSI_4th_Programming_Contest_TOP_50.pdf)))
